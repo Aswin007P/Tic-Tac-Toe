@@ -6,6 +6,7 @@ body{
     column-gap: 50px;
     align-items: center;
     justify-content: center;
+    background-size: contain; 
 }
 #head{
     font-size: 83px;
