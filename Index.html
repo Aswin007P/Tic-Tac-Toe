@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    </head>
+    <body>
+    <div class="side">
+        <h1 id="result"></h1>
+        <span id="pointing">👉🏽</span>
+    </div>
+    <div id="middle">
+        <h1 id="head">Tic-Tac-Toe</h1>
+        <div id="main">
+        <div class="game">
+            <div class="box" onclick="markPlayer('box1')" id="box1"></div>
+            <div class="box" onclick="markPlayer('box2')" id="box2"></div>
+            <div class="box" onclick="markPlayer('box3')" id="box3"></div>
+            <div class="box" onclick="markPlayer('box4')" id="box4"></div>
+            <div class="box" onclick="markPlayer('box5')" id="box5"></div>
+            <div class="box" onclick="markPlayer('box6')" id="box6"></div>
+            <div class="box" onclick="markPlayer('box7')" id="box7"></div>
+            <div class="box" onclick="markPlayer('box8')" id="box8"></div>
+            <div class="box" onclick="markPlayer('box9')" id="box9"></div>
+        </div>
+       </div>      
+        <button onclick="restartGame()">RELOAD</button>
+    </div>
+    </body>
+    <script src="Script.js"></script>
+</html>

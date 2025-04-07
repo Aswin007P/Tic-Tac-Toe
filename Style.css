@@ -1,0 +1,130 @@
+body{
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2017/07/31/21/45/toys-2561392_1280.jpg") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+#head{
+    font-size: 83px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 6px gray,3px 3px 8px yellow,3px 3px 9px rgb(48, 241, 190);
+    margin-top: 0px;
+}
+.game{
+     background-color: rgba(145, 126, 31, 0.39);
+     height: 350px;
+     width: 360px;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     align-items: center;
+     justify-content: center;
+     column-gap: 10px;
+     margin-bottom: 40px;
+}
+.box{
+    background-color:white ;
+    height: 110px ;
+    width: 110;
+    border-radius: 40px;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    caret-color: transparent;
+}
+button{
+    background-color: #000000;
+    color: whitesmoke;
+    font-size: 40px;
+    width: 250px;
+    height: 55px;
+    border-style: solid;
+    font-weight: 800;
+    border-radius: 40px;
+    border-width: 6;
+    padding-top: 0px;
+    border-color: rgb(86, 39, 26);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    scale: 1.12;
+}
+#main{
+   margin-left: 50px;
+}
+.side{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(99, 158, 158,0.01);
+    margin-left: 60px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 38px;
+    color: rgb(175, 113, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 3px 3px 10px #000000,4px 4px 10px goldenrod, 3px 3px 10px black;
+    font-style: italic;
+}
+.win{
+    animation: winner 1.5s ease-in-out infinite;
+    background-color:white ;
+    height: 110px ;
+    width: 110;
+    border-radius: 40px;
+    font-size: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+@keyframes winner{
+    0%{
+        scale: 1;
+        background-color: burlywood;
+        box-shadow: 0px 0px 5px white;
+    }
+    33%{
+        scale: 1.05;
+        background-color: rgb(76, 171, 155);
+        box-shadow: 0px 0px 5px rgb(245, 38, 38);
+    }
+    66%{
+        
+            scale: 1.1;
+            background-color: rgb(175, 39, 177);
+            box-shadow: 0px 0px 5px rgb(159, 198, 17);
+    }
+    88%{
+        scale: 1.05;
+        background-color: rgb(166, 85, 71);
+        box-shadow: 0px 0px 5px rgb(202, 149, 70);
+    }
+    100%{
+        scale: 1;
+        background-color: rgb(29, 174, 94);
+        box-shadow: 0px 0px 5px rgb(210, 91, 212);
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(0px)
+    }
+    50% {
+      transform: translateX(40px);
+    }
+  }
+  #pointing {
+    animation: bounce 0.6s infinite;
+    font-size: 278px;
+    display: inline-block;
+    text-shadow: 3px -3px 10px #000000,3px 3px 10px rgb(110, 137, 27),3px 0px 10px white;
+  }
