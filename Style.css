@@ -4,6 +4,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 #head{
     font-size: 83px;
@@ -61,8 +63,6 @@ button:hover{
     width: 600px;
     height: 450px;
     background-color: rgb(99, 158, 158,0.01);
-    margin-left: 60px;
-    margin-top: 20px;
     text-align: center;
     font-size: 38px;
     color: rgb(175, 113, 19);
