@@ -152,9 +152,9 @@ function checkWinner(){
     });
     
     }
-    else if(clicked===9) {
+    else if(clicked===9 && gameOver==false) {
         document.getElementById('result').innerHTML =
-            "<span style='font-size:140'>😵‍💫</span><br><br><span style='font-size: 98px; color: orange; font-weight: bold;font-style:italic; text-shadow: 5px 5px 6px black'>Match Drawn!</span>";
+            "<span style='font-size:200px;padding-top:0px'>😵‍💫</span><br><span style='font-size: 98px; color: orange; font-weight: bold;font-style:italic; text-shadow: 5px 5px 6px black'>Match Drawn!</span>";
          gameOver=true;
          stopPointerCelebration();
     }
