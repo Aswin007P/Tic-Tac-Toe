@@ -41,7 +41,7 @@ function checkWinner(){
     let c9 = document.getElementById('box9').innerHTML
 
     if(c1==player && c2 == player && c3==player){
-        document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+        document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
         document.getElementById('box1').classList.add('win')
       document.getElementById('box2').classList.add('win')
       document.getElementById('box3').classList.add('win')
@@ -55,7 +55,7 @@ function checkWinner(){
     
     }
     else if(c4==player && c5 == player && c6==player){
-         document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+         document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
          document.getElementById('box4').classList.add('win')
       document.getElementById('box5').classList.add('win')
       document.getElementById('box6').classList.add('win')
@@ -69,7 +69,7 @@ function checkWinner(){
     
     }
     else if(c7==player && c8 == player && c9==player){
-        document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+        document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
         document.getElementById('box7').classList.add('win')
       document.getElementById('box8').classList.add('win')
       document.getElementById('box9').classList.add('win')
@@ -83,7 +83,7 @@ function checkWinner(){
     
     }
     else if(c1==player && c4 == player && c7==player){
-        document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+        document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
         document.getElementById('box1').classList.add('win')
       document.getElementById('box4').classList.add('win')
       document.getElementById('box7').classList.add('win')
@@ -97,7 +97,7 @@ function checkWinner(){
     
     }
     else if(c2==player && c5 == player && c8==player){
-         document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+         document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
          document.getElementById('box2').classList.add('win')
       document.getElementById('box5').classList.add('win')
       document.getElementById('box8').classList.add('win')
@@ -111,7 +111,7 @@ function checkWinner(){
     
     }
     else if(c3==player && c6 == player && c9==player){
-         document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+         document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
          document.getElementById('box3').classList.add('win')
       document.getElementById('box6').classList.add('win')
       document.getElementById('box9').classList.add('win')
@@ -125,7 +125,7 @@ function checkWinner(){
     
     }
     else if(c1==player && c5 == player && c9==player){
-         document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+         document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
          document.getElementById('box1').classList.add('win')
       document.getElementById('box5').classList.add('win')
       document.getElementById('box9').classList.add('win')
@@ -139,7 +139,7 @@ function checkWinner(){
     
     }
     else if(c3==player && c5 == player && c7==player){
-         document.getElementById('result').innerHTML="<span style='font-size: 97px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
+         document.getElementById('result').innerHTML="<span style='font-size: 87px;color: Goldenrod ;font-style:poppins;'> Congrats.. 🎉</span> <br>  <span style='font-size:100px'>"+ player+ " </span> is the winner"
          document.getElementById('box3').classList.add('win')
       document.getElementById('box5').classList.add('win')
       document.getElementById('box7').classList.add('win')
